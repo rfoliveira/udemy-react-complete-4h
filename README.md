@@ -7,3 +7,5 @@ Links úteis:
 - https://github.com/faker-js/faker (faker certo)
 - https://styled-components.com/
 - https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+- http://jsonplaceholder.typicode.com/ (Free fake API for testing and prototyping.)
+- https://mockapi.io (mock api)
