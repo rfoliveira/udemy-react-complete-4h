@@ -5,3 +5,5 @@ Links úteis:
 - https://create-react-app.dev/
 - https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets
 - https://github.com/faker-js/faker (faker certo)
+- https://styled-components.com/
+- https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
