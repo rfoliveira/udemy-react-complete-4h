@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import App2 from './App2';
 import AppAxios from './AppAxios';
+import AppAxiosOneCard from './AppAxiosOneCard';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,7 +12,8 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <App2 /> */}
-    <AppAxios />
+    {/* <AppAxios /> */}
+    <AppAxiosOneCard />
   </React.StrictMode>
 );
 
