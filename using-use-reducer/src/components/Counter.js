@@ -17,6 +17,11 @@ const reducer = (state, action) => {
 }
 
 const Counter = () => {
+    // An alternative to useState.
+    // useReducer is usually preferable to useState when you have complex
+    // state logic that involves multiple sub-values. 
+    // It also lets you optimize performance for components that 
+    // trigger deep updates because you can pass dispatch down instead of callbacks.
     const [count, dispatch] = useReducer(reducer, initialState)
 
     return (
