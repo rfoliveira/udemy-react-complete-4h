@@ -7,7 +7,7 @@ const FormHooked = () => {
 
     const submitHandler = (e) => {
         e.preventDefault()
-        alert('Name: ' + name + ', E-mail: ' + email + ', Password: ' + password)
+        alert('Name: ' + name + ', Email: ' + email + ', Password: ' + password)
         clearName()
         clearEmail()
         clearPassword()
@@ -21,7 +21,7 @@ const FormHooked = () => {
                     <input {...bindName} />
                 </div>
                 <div>
-                    <label>E-mail</label>
+                    <label>Email</label>
                     <input {...bindEmail} />
                 </div>
                 <div>
