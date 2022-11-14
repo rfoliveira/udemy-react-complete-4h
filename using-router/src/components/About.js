@@ -1,5 +1,5 @@
 import { faker } from '@faker-js/faker'
-import Colorful from '../hoc/Colorful'
+// import Colorful from '../hoc/Colorful'
 
 const About = () => {
     return (
@@ -10,6 +10,7 @@ const About = () => {
     )
 }
 
+export default About
 // Dessa forma, a cada vez que entrar na tela
 // o compomente terá uma cor diferente
-export default Colorful(About)
+// export default Colorful(About)
